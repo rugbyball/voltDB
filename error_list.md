@@ -10,3 +10,8 @@ Currently, VOLTDB only support multiple partitioned tables join on their partiti
 This is because VOLTDB wants the multiple partitioned tables join only on each partition.  <br />
 
 ref: https://forum.voltdb.com/showthread.php?1158-SQL-Insufficient-Join-Criteria
+
+
+VoltPort died due to an unexpected exception
+ref: https://forum.voltdb.com/showthread.php?35-NETWORK-VoltPort-died-due-to-an-unexpected-exception
+
