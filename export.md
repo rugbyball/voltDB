@@ -1,3 +1,10 @@
+ERROR: Export is not supported in the community edition of VoltDB.
+==============
+FATAL: This process will exit. Please run VoltDB with a deployment file compatible with the community edition.
+VoltDB has encountered an unrecoverable error and is exiting.
+The log may contain additional information.
+
+
 ERROR: [null]: Table with indexes configured as an export table
 ==============
 
