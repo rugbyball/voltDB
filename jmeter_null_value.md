@@ -14,3 +14,6 @@ The list must be enclosed in double-quotes if any of the values contain a comma 
 
 ref: http://jmeter.apache.org/usermanual/component_reference.html#CSV_Data_Set_Config
 
+參數和變數最後不要有空格，否則會出現奇怪的問題
+===
+Cannot have single quote-char in quoted field
