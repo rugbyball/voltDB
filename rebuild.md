@@ -1,3 +1,5 @@
+ant clean && ant -Djmemcheck=NO_MEMCHECK && ant dist  
+
 /src/frontend/org/voltcore/network/VoltProtocolHandler.java  
 private static int MAX_MESSAGE_LENGTH = 52428800;  
 
