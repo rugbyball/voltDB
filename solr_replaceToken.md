@@ -23,4 +23,9 @@ https://github.com/apache/lucene-solr/blob/3f38aba02ce37c6422875d8824ee034d42d63
     return r;
   }
 </code>  
-  
+
+https://github.com/apache/lucene-solr/blob/3f38aba02ce37c6422875d8824ee034d42d635b9/solr/contrib/dataimporthandler/src/java/org/apache/solr/handler/dataimport/EntityProcessor.java
+
+https://github.com/apache/lucene-solr/blob/3f38aba02ce37c6422875d8824ee034d42d635b9/solr/contrib/dataimporthandler/src/java/org/apache/solr/handler/dataimport/EntityProcessorBase.java
+
+
