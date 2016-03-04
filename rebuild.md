@@ -22,6 +22,6 @@ size_t maxAllocationSize = ((1024 * 1024 *50) - (1024 * 32));
 src\frontend\org\voltdb  
 2015.12.19 版本
 
-
+ant clean && ant -Djmemcheck=NO_MEMCHECK && ant dist
 
 
