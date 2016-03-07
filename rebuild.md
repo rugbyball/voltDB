@@ -6,6 +6,10 @@ client
 //private static int MAX_MESSAGE_LENGTH = 52428800;  
 private static int MAX_MESSAGE_LENGTH = 2097152000
 
+org.voltdb.client.ClientConfig  
+static final long DEFAULT_PROCEDURE_TIMOUT_NANOS = TimeUnit.MINUTES.toNanos(10);// default timeout is 10 minutes;  
+static final long DEFAULT_CONNECTION_TIMOUT_MS = 10 * 60 * 1000; // default timeout is 10 minutes;  
+
 server
 ===
 /src/ee/storage/TempTableLimits.h  
