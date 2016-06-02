@@ -15,3 +15,11 @@ ref: https://forum.voltdb.com/showthread.php?1158-SQL-Insufficient-Join-Criteria
 VoltPort died due to an unexpected exception
 ref: https://forum.voltdb.com/showthread.php?35-NETWORK-VoltPort-died-due-to-an-unexpected-exception
 
+
+
+### memory limit issue
+https://docs.voltdb.com/AdminGuide/HostConfigPortOpts.php   
+response.status = -5   
+response.statusString = Server is paused and is available in read-only mode - please try again later   
+the memory limit constraint is only work at client port 21212, and not work at admin port 21211   
+
