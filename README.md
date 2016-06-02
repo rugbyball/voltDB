@@ -5,6 +5,7 @@ List voltDB errors, and some solutions for these error
 ### voltdb response status code
 https://github.com/VoltDB/voltdb/blob/a796cf7b597cc180755736fade3e292e3b248808/tools/vmc_stats_emulator.py   
 
+<pre>
 STATUS_STRINGS = {
   "VOLTDB_CONNECTION_LOST": -4,
   "VOLTDB_CONNECTION_TIMEOUT": -6,
@@ -18,3 +19,4 @@ STATUS_STRINGS = {
   "VOLTDB_UNINITIALIZED_APP_STATUS_CODE": -128,
   "VOLTDB_USER_ABORT": -1,
 }
+</pre>
